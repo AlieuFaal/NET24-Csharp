@@ -1,6 +1,6 @@
 ﻿// If, else if, else:
 
-int x = 7;
+int x = 8;
 
 if (x == 7)
 {
@@ -16,18 +16,19 @@ else
 }
 
 // Nästlade if-satser (if-sats i en annan if-sats):
-int y = 6;
+int y = 4;
 
 if (y > 3)
 {
     if (y < 10)
     {
         Console.WriteLine("y är mellan 3 och 10");
+
     }
 }
 
 // Ternary operator
-Console.WriteLine(false ? "Japp!" : "Nope!");
+Console.WriteLine(true ? "Japp!" : "Nope!");
 
 x = 15;
 y = (x < 10 ? 5 : 8);  // Ternary operator används ofta vid vilkorad tilldelning
@@ -45,9 +46,10 @@ else
 Console.WriteLine("y = " + y);
 
 // Annat exempel på när ternary operator kan vara användbart. (Skriva i singular/plural beroende på mängd)
-int numberOfPeople = 0;
-Console.WriteLine($"{numberOfPeople} person{(numberOfPeople==1?"":"er")}");
+int numberOfPeople = 7;
+Console.WriteLine($"{numberOfPeople} person{(numberOfPeople == 1 ? "":"er")}");
 
 // OBS! Undvik nestlade ternary operators. (Svårläst).
 y = (x < 10 ? 5 : (x > 20 ? 6 : 9));
 
+System.Console.WriteLine("y = " + y);

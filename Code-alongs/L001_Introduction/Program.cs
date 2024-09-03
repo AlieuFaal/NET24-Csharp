@@ -34,7 +34,7 @@ Console.WriteLine("hello world!".ToUpper());
 
 // Explicit (Uttryckligen) och implicit (Underförstått) typade variabler.
 // Keyword: var
-// Oavsett vilket (explicit eller implicit) så är c# statiskt typat, d.v.s. den måste veta datatype
+// Oavsett vilket (explicit eller implicit) så är c# statiskt typat, d.v.s. den måste veta datatypen
 // vid compile-time. Använder du var, så säger du till kompilatorn att själv lista ut vad du menar.
 var myVariable = "hello"; 
 Console.WriteLine(myVariable);
@@ -103,7 +103,7 @@ Console.WriteLine();
 // Boolean logical operators
 Console.WriteLine(!true);
 Console.WriteLine(5 < 3 && 7 > 4);
-Console.WriteLine(5 < 3 || 7 > 4);
+Console.WriteLine(5 > 3 || 7 < 4);
 
 Console.WriteLine();
 Console.WriteLine((3 + 2) * 2);
