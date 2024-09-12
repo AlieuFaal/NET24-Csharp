@@ -6,15 +6,17 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 
 **Anteckningar:**
 
-| Datum  | Översikt                                               |
-|--------|--------------------------------------------------------|
-| [Aug 26][Aug26] | Visual Studio, Powershell, Git/Github.        |
-| [Aug 28][Aug28] | Variabler, Datatyper, If-satser, Loopar.      |
-| [Aug 29][Aug29] | Felsökning, Indexering, Arrayer, Strängar.    |
-| [Sep 2][Sep2] | Funktioner, Parametrar, Returvärde, Call Stack. |
-| [Sep 4][Sep4] | Algoritmer, Problemlösning, Project Euler.      |
-| [Sep 5][Sep5] | Introduktion till vanligaste klasserna i .NET   |
-
+| Datum  | Översikt                                                       |
+|--------|----------------------------------------------------------------|
+| [Aug 26][Aug26] | Visual Studio, Powershell, Git/Github.                |
+| [Aug 28][Aug28] | Variabler, Datatyper, If-satser, Loopar.              |
+| [Aug 29][Aug29] | Felsökning, Indexering, Arrayer, Strängar.            |
+| [Sep 2][Sep2]   | Funktioner, Parametrar, Returvärde, Call Stack.       |
+| [Sep 4][Sep4]   | Algoritmer, Problemlösning, Project Euler.            |
+| [Sep 5][Sep5]   | Introduktion till vanligaste klasserna i .NET         |
+| [Sep 9][Sep9]   | Exception handling.                                   |
+| [Sep 11][Sep11] | Binary, Hexadecimal, Enheter/Prefix, ASCII, Unicode.  |
+| [Sep 12][Sep12] | Filhantering. Läsa och skriva filer.                  |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -22,3 +24,6 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 [Sep2]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep2.md
 [Sep4]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep4.md
 [Sep5]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep5.md
+[Sep9]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep9.md
+[Sep11]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep11.md
+[Sep12]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep12.md
