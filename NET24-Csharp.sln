@@ -33,6 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "L013_Unicode", "Code-alongs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L014_Path_and_Directory", "Code-alongs\L014_Path_and_Directory\L014_Path_and_Directory.csproj", "{B88F0A72-B42F-4F38-9D87-DC4D1D4405FE}"
 EndProject
+<<<<<<< HEAD
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Code-alongs", "Code-alongs", "{709CBCD4-5C08-440F-84F2-3C9EE0D42885}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L009_String_and_Char", "Code-alongs\L009_String_and_Char\L009_String_and_Char.csproj", "{B671CB60-C532-44E4-A00C-28B3CDD5F701}"
@@ -40,6 +41,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L010_Math_and_Random", "Code-alongs\L010_Math_and_Random\L010_Math_and_Random.csproj", "{46BCA306-C2E4-4C06-B7E7-6CA72AFC17C2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L011_DateTime_and_TimeSpan", "Code-alongs\L011_DateTime_and_TimeSpan\L011_DateTime_and_TimeSpan.csproj", "{DF6FF2E5-A56A-40D2-A754-19B78040FDBB}"
+=======
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L015_StreamWriter_och_StreamReader", "Code-alongs\L015_StreamWriter_och_StreamReader\L015_StreamWriter_och_StreamReader.csproj", "{F7CF590D-CF20-4A84-8149-192B4037CCE4}"
+>>>>>>> a1a9de1e6d3581d13c2fb0cf9f599a1ee288d11d
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -124,7 +128,14 @@ Global
 		{B88F0A72-B42F-4F38-9D87-DC4D1D4405FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B88F0A72-B42F-4F38-9D87-DC4D1D4405FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B88F0A72-B42F-4F38-9D87-DC4D1D4405FE}.Release|Any CPU.Build.0 = Release|Any CPU
+<<<<<<< HEAD
 >>>>>>> 5bec6505859b999f709ef6b9853022c779616ba1
+=======
+		{F7CF590D-CF20-4A84-8149-192B4037CCE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7CF590D-CF20-4A84-8149-192B4037CCE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7CF590D-CF20-4A84-8149-192B4037CCE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7CF590D-CF20-4A84-8149-192B4037CCE4}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> a1a9de1e6d3581d13c2fb0cf9f599a1ee288d11d
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

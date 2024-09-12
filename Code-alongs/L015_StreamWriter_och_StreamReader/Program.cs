@@ -1,25 +1,29 @@
-﻿
+Console.WriteLine("*** StreamWriter *******************");
 
-// Console.WriteLine(Directory.GetCurrentDirectory());
+Console.WriteLine(Directory.GetCurrentDirectory());
 
-// using (StreamWriter writer = new StreamWriter ("myfile.txt", true))
-// {
-//     for (int i =0; i <= 10; i++)
-//     {
-//         Console.WriteLine($"Hello {i}");
-//         writer.WriteLine($"Hello {i}");
-//     }
-// }
+using (StreamWriter writer = new StreamWriter("myfile.txt"))
+{
+    for (int i = 0; i < 9; i++)
+    {
+        Console.WriteLine($"Hello {i}!");
+        writer.WriteLine($"Hello {i}!");
+    }
+}
+
+Console.WriteLine();
+Console.WriteLine("*** StreamReader *******************");
 
 using (StreamReader reader = new StreamReader("myfile.txt"))
 {
-    // while (!reader.EndOfStream)
-    // {
-    //    System.Console.Write((char)reader.Read());
+    while (!reader.EndOfStream)
+    {
+        //Thread.Sleep(50);
+        //Console.Write((char)reader.Read());
 
-    //    Thread.Sleep(200);
-    //    System.Console.WriteLine(reader.ReadLine());
-    // }
+        //Thread.Sleep(200);
+        Console.WriteLine(reader.ReadLine());
+    }
 
-    System.Console.Write(reader.ReadToEnd());
+    //Console.Write(reader.ReadToEnd());
 }
