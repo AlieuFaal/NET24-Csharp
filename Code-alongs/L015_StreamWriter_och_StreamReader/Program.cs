@@ -12,7 +12,7 @@ using (StreamWriter writer = new StreamWriter("myfile.txt"))
 }
 
 Console.WriteLine();
-Console.WriteLine("*** StreamReader *******************");
+Console.WriteLine("**** StreamReader ****");
 
 using (StreamReader reader = new StreamReader("myfile.txt"))
 {
