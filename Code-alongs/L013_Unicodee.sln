@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L015_StreamWriter_och_Strea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L016_FileStream", "L016_FileStream\L016_FileStream.csproj", "{8005ADBC-323D-48D2-9429-0AC2968B450F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L025_Arv", "L025_Arv\L025_Arv.csproj", "{B7F3379B-AE55-4ABF-826D-B2B1FF467942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L026_Constructor_chaining", "L026_Constructor_chaining\L026_Constructor_chaining.csproj", "{35281914-F2D5-4F6F-BA5A-3E5759EAEA2B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{8005ADBC-323D-48D2-9429-0AC2968B450F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8005ADBC-323D-48D2-9429-0AC2968B450F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8005ADBC-323D-48D2-9429-0AC2968B450F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7F3379B-AE55-4ABF-826D-B2B1FF467942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F3379B-AE55-4ABF-826D-B2B1FF467942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F3379B-AE55-4ABF-826D-B2B1FF467942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7F3379B-AE55-4ABF-826D-B2B1FF467942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35281914-F2D5-4F6F-BA5A-3E5759EAEA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35281914-F2D5-4F6F-BA5A-3E5759EAEA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35281914-F2D5-4F6F-BA5A-3E5759EAEA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35281914-F2D5-4F6F-BA5A-3E5759EAEA2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

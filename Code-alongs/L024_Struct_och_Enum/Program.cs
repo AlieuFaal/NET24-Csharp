@@ -8,6 +8,8 @@ Color myColor = Color.Green;
 Console.WriteLine($"myColor = {myColor} ({(int)myColor})");
 Console.WriteLine((Color)3);
 
+Console.ReadKey();
+
 // En struct fungerar i princip som en klass men definerar en value type istället för en reference type.
 struct Position
 {

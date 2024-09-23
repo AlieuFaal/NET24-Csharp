@@ -2,7 +2,7 @@
 //using myNamespace;
 //using System;
 
-// Fungerar inte utan using ovan, eftersom den inte hittar Cat i detta namespace.
+// Fungerar inte utan "using" ovan, eftersom den inte hittar Cat i detta namespace.
 Cat.SayHello();
 
 // Detta fungerar dock, eftersom den explicit skriver vilken namespace Dog ligger i.
