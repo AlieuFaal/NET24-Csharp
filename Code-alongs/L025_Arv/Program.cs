@@ -1,51 +1,68 @@
-﻿// Animal animal= new Animal() {Name = "Heffaklump"};
-// Cat cat= new Cat() {Name = "Pelle"};
-// Dog dog= new Dog(){Name = "Fido"};
 
-// Char myChar = 'A';
-// System.Console.WriteLine((int)myChar);
+//var animal = new Animal() { Name = "Heffaklump" };
+//animal.Run();
 
-Animal myAnimal= new Cat {Name = "Pelle"};
-Cat myCat= (Cat)myAnimal;
-myCat.Mew();
+//Char myChar = 'A';
+//Console.WriteLine((int)myChar);
 
-// Animal[] animals = new Animal[]
-// {
-//     new Cat() {Name = "Pelle"},
-//     new Cat() {Name = "Fido"},
-//     new Dog() {Name = "Bosse"},
-//     new Dog() {Name = "Måns"}   
-// };
+//Cat myCat = new Cat() { Name = "Pelle" };
+//Animal myAnimal = myCat;
+//myAnimal.Run();
 
-// foreach (Animal animal in animals)
-// {
-//     animal.Run();
-//     animal.Walk();
-//     System.Console.WriteLine();
-// }
-
-// animal.Run();
-
-// System.Console.WriteLine();
-
-// cat.Run();
-// cat.Mew();
-// cat.Walk();
-
-// System.Console.WriteLine();
-
-// dog.Run();
-// dog.Bark();
+//long x = 5;
+//int y = (int)x;
 
 
 
-Console.ReadKey();
+Animal[] animals = new Animal[]
+{
+    new Dog() { Name = "Fido" },
+    new Cat() { Name = "Pelle" },
+    new Dog() { Name = "Bosse" },
+    new Cat() { Name = "Måns" }
+};
+
+foreach (var animal in animals)
+{
+    animal.Run();
+    animal.Walk();
+
+    (animal as Dog)?.Bark();
+    (animal as Cat)?.Mew();
+
+    /*
+    if (animal is Dog myDog)
+    {
+        myDog.Bark();
+        ((Dog)animal).Bark();
+        (animal as Dog).Bark();
+    }
+    else if (animal is Cat cat)
+    {
+        cat.Mew();
+    }
+    */
+
+    Console.WriteLine();
+}
+
+//Animal animal = new Cat() { Name = "Pelle" };
+//animal.Walk();
+
+//animal1.Run();
+////cat.Mew();
+
+//Console.WriteLine();
+
+//Animal animal2 = new Dog() { Name = "Fido" };
+//animal2.Run();
+////dog.Bark();
+//animal2.Walk();
 
 abstract class Animal
 {
-    required public string Name { get; set; }
-
-    public abstract void Run();
+   required public string Name { get; set; }
+   public abstract void Run();
 
     public virtual void Walk()
     {
@@ -57,36 +74,29 @@ class Cat : Animal
 {
     public void Mew()
     {
-        System.Console.WriteLine($"{Name}: Meow!");
+        Console.WriteLine($"{Name}: Meow!");
     }
 
     public override void Run()
     {
-        Console.WriteLine($"The cat {Name} is running!");
+        Console.WriteLine($"{Name} is running like a cat!");
     }
 
     public override void Walk()
     {
-        base.Walk();
-        System.Console.WriteLine($"{Name} says: HEeeY I'M Walking h'eere");
+        Console.WriteLine($"{Name} is walking like a cat!");
     }
-
 }
 
 class Dog : Animal
 {
     public void Bark()
     {
-        System.Console.WriteLine($"{Name}: Woof Woof!");
+        Console.WriteLine($"{Name}: Woof!");
     }
 
     public override void Run()
     {
-        Console.WriteLine($"The dog {Name} is running!");
-    }
-
-    public override void Walk()
-    {
-        System.Console.WriteLine($"{Name} says: HEeeY I'M Walking h'eere");
+        Console.WriteLine($"{Name} is running like a dog!");
     }
 }

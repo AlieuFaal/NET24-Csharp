@@ -4,6 +4,8 @@
 Skapa en enum Brand med 5 bilmärken, och en enum Color med 5 färger. Skriv sedan en klass Vehicle som har publika properties Brand och Color. Klassen ska ha en konstruktor som man kan använda för att sätta Brand och Color, och en konstruktor som endast tar Brand och sätter en default färg.
 
 ## 2. Lägg till override för ToString()
+ToString() är en metod som alla klasser ärver från System.Object. Denna metod anropas implicit när man skickar in ett objekt till Console.WriteLine, eller använder ett objekt i en konkatenering (t.ex en interpolation string). Implementationen i System.Object är sådan att den bara skriver ut objektets datatyp, men din klass kan göra en override på ToString() och returnera en sträng i vilket format du vill.
+
 Gör en override på ToString() i Vehicle-klassen, så att "A white Toyota" skrivs ut om man kör följande kod:
 
 ```cs
@@ -127,10 +129,10 @@ Shape.PrintCircles(shapes);
 
 Ovanstående ska skriva ut först alla shapes i arrayen, följt av blankrad, följt av alla circles i arrayen.
 
-# 11. Lägg till färger i PrintAll()
+## 11. Lägg till färger i PrintAll()
 Uppdatera PrintAll() i uppgift 10, så att alla rader med cirklar skrivs med röd färg och alla rader med kvadrater skrivs med grön färg.
 
-# 12. Random färger
+## 12. Random färger
 Lägg till följande i Shape
 
 ```cs

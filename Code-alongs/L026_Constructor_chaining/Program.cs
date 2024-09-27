@@ -1,4 +1,4 @@
-﻿var myHuman = new Human() { FirstName = "Alieu", LastName = "Faal", Title = "Mr. " };
+var myHuman = new Human() { FirstName = "Alieu", LastName = "Faal", Title = "Mr. " };
 
 Console.ReadKey();
 
