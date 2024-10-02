@@ -1,4 +1,4 @@
-﻿//using myNamespace.anotherNamespace;
+//using myNamespace.anotherNamespace;
 //using myNamespace;
 //using System;
 

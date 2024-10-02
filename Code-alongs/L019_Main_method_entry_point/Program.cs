@@ -1,4 +1,4 @@
-﻿internal class Program
+internal class Program
 {
     // När .NET runtime laddat in ditt program kommer den leta igenom alla klasser tills den hittar
     // en statisk metod med namnet "Main". Denna används som entry point till ditt program genom att

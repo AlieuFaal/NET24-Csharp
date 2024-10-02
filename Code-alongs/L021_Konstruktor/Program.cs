@@ -1,23 +1,18 @@
 ﻿
-
 // Keyword new anropar konstruktorn på en klass, som skapar objektet
-// och returnerar en referens till det nyskapade objektet.
-Cat myCat = new Cat();
+// och returnerar en referens till det nyskapade objektet. 
 
-// Kort-alternativ till ovanstående:
-//var myCat = new Cat();
-//Cat myCat = new();
+// Cat cat1 = new Cat(); // Tre olika sätt att skriva samma sak.
+// var cat2 = new Cat();
+Cat cat = new();  
+Cat cat2 = new("Måns", 10);
 
-Cat myOtherCat = new Cat("Pelle");
-Cat myThirdCat = new Cat("Måns", 7);
-
-Console.WriteLine($"My name is {myCat.name} and I'm {myCat.age} years old");
-Console.WriteLine($"My name is {myOtherCat.name} and I'm {myOtherCat.age} years old");
-Console.WriteLine($"My name is {myThirdCat.name} and I'm {myThirdCat.age} years old");
+System.Console.WriteLine($"My name is {cat.name} and I'm {cat.age} years old.");
+System.Console.WriteLine($"My name is {cat2.name} and I'm {cat2.age} years old.");
 
 class Cat
 {
-    public string name = "Default name";
+    public string name = "Default Name";
 
     public int age = 0;
 
@@ -26,8 +21,8 @@ class Cat
     // Constructor
     public Cat()
     {
-        this.name = "-";
-        this.age = 1;
+        this.name = "Pelle";
+        this.age = 5; 
     }
 
     public Cat(string name)
@@ -39,6 +34,6 @@ class Cat
     public Cat(string name, int age)
     {
         this.name = name;
-        this.age = age;
+        this.age = age; 
     }
 }

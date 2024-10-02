@@ -1,17 +1,13 @@
-﻿
-Otter myOtter = new();
+﻿Otter otter1 = new();
 
-//myOtter.name = "Kalle";
+// otter1.SetName("Allan");
+// Console.WriteLine(otter1.GetName());
 
-//myOtter.SetName("Kalle");
-//Console.WriteLine(myOtter.GetName());
+// otter1.name = "Allan";
 
-myOtter.Name = "Pelle";
-myOtter.Age = 15;
-
-Console.WriteLine(myOtter.Name);
-
-
+otter1.Name = "Kalle";
+otter1.Age = 15;
+System.Console.WriteLine(otter1.Name);
 
 class Otter
 {
@@ -25,37 +21,36 @@ class Otter
         }
         set
         {
-            if (value.ToLower() == "kalle")
-            {
-                throw new ArgumentException($"Invalid otter name '{value}'");
-            }
-
+            // if (value.ToLower() == "kalle")
+            // {
+            //     throw new ArgumentException("Invalid otter name '{value}'");
+            // }
             _name = value;
         }
     }
 
-    public int Age { get; set; }
+    private int _age; 
 
-    //private int _age;
-    //public int Age
-    //{
-    //    get
-    //    {
-    //        return _age;
-    //    }
-    //    set
-    //    {
-    //        _age = value;
-    //    }
-    //}
+    public int Age 
+    {
+        get
+        {
+            return _age;
+        }
+        set
+        {
+            _age = value;
+        }
+    }
 
-    //public void SetName(string name)
-    //{
-    //    this.name = name;
-    //}
 
-    //public string GetName()
-    //{
-    //    return name;
-    //}
+    // public void SetName(string _name)
+    // {
+    //     this._name = _name;
+    // }
+
+    // public string GetName()
+    // {
+    //     return _name;
+    // }
 }
