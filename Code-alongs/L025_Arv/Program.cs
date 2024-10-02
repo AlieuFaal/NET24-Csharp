@@ -58,7 +58,7 @@ foreach (var animal in animals)
 //animal2.Run();
 ////dog.Bark();
 //animal2.Walk();
-
+Console.ReadKey();
 abstract class Animal
 {
    required public string Name { get; set; }

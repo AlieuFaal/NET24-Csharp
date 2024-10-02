@@ -1,5 +1,5 @@
 var myHuman = new Human() { FirstName = "Alieu", LastName = "Faal", Title = "Mr. " };
-
+var student = new Student() { FirstName = "Alieu"};
 Console.ReadKey();
 
 class Human
@@ -10,10 +10,8 @@ class Human
 
     public string Title { get; set; }
 
-    public Human()
-    {
-
-    }
+    public Human() 
+    { }
 
     public Human(string firstName, string lastName, string title) : this(firstName, lastName)
     {
@@ -35,6 +33,8 @@ class Student : Human
 {
     public double Grade { get; set; }
 
+    public Student ()
+    { }
     public Student (string FirstName, string LastName, string Title, double grade) : 
         base(FirstName, LastName, Title)
     {

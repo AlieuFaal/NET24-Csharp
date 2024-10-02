@@ -1,4 +1,6 @@
-﻿enum Brand { Toyota, Volvo, Porsche, Lada, Saab  }
+﻿
+Console.ReadKey();
+enum Brand { Toyota, Volvo, Porsche, Lada, Saab  }
 enum Color { Black, White, Red, Blue, Yellow } 
 
 class Vehicle

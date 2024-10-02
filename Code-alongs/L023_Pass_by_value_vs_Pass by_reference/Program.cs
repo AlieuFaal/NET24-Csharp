@@ -41,7 +41,6 @@ static void PassValueTypeByReference(ref int i)
 Console.WriteLine();
 
 
-
 // Exempel på hur reference types kan skickas till en metod som pass by value eller pass by reference.
 
 PassReferenceTypeByValue(catA);
@@ -73,6 +72,7 @@ static void PassReferenceTypeByReference(ref Cat cat)
 }
 
 
+Console.ReadKey();
 
 class Cat()
 {
