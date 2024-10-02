@@ -1,3 +1,4 @@
+
 class Subscriber
 {
     private string name;
@@ -7,8 +8,8 @@ class Subscriber
         this.name = name;
     }
 
-    public void OnMessageReceived(object sender, EventArgs eventArgs)
+    public void OnMessageRecieved(object sender, MessageEventArgs args)
     {
-        System.Console.WriteLine($"{name} got the message: {args.message}!");
+        Console.WriteLine($"{name} got the message: {args.Message}");
     }
 }

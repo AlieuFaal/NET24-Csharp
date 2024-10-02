@@ -1,4 +1,4 @@
-﻿Publisher publisher = new Publisher();
+Publisher publisher = new Publisher();
 
 Subscriber subscriber1 = new Subscriber("Kalle");
 Subscriber subscriber2 = new Subscriber("Pelle");

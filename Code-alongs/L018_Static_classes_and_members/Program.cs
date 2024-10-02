@@ -1,29 +1,30 @@
-﻿
-Cat myCat = new Cat() { name = "Pelle" };
-
-// Cat.numberOfLives = 7;
+Cat myCat = new Cat() {name = "Pelle Svanslös"};
 
 myCat.Greet();
 
-Cat.PrintNumberOfLives();
+Cat.Hello("Ali");
 
-// Om klassen i sig är static kan man inte instantiera objekt alls.
-// Ex: static class Cat
+Cat.PrintNumberOfLives();
 
 class Cat
 {
-    public string name;
-    
-    public static int numberOfLives = 9;
+public string name;
 
-    public void Greet()
-    {
-        Console.WriteLine($"Hi, my name is {name}, and I have {numberOfLives} lives.");
-    }
+public static int numberoflives = 9;
 
-    public static void PrintNumberOfLives()
-    {
-        Console.WriteLine($"Every cat has {numberOfLives} lives.");
-    }
+public void Greet()
+{
+    System.Console.WriteLine($"Hi my name is {name} and i have {numberoflives} lives.");
+}
+
+public static void Hello(string name)
+{
+    System.Console.WriteLine($"Hi my name is {name} and i have {numberoflives} lives.");
+}
+
+public static void PrintNumberOfLives()
+{
+    System.Console.WriteLine($"Every cat has {numberoflives} lives...");
+}
 
 }
