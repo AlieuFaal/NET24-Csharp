@@ -1,4 +1,6 @@
-﻿using Microsoft.VisualBasic;
+﻿using System.Collections.Immutable;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.VisualBasic;
 
 List <object> objectList= new List<object>();
 
@@ -58,4 +60,42 @@ System.Console.WriteLine(string.Join('\n', stringList3));
 // foreach (var enemy in enemies.Where<enemy>(e => e.HP < 5 && e.name == 'rat'))
 // {
         // System.Console.WriteLine(enemy.HP);
+// }
+System.Console.WriteLine("******Select*******");
+var People = new[]
+{
+    new {FirstName = "Kalle", LastName = "Andersson", Age = 14},
+    new {FirstName = "Lisa", LastName = "Palm", Age = 34},
+    new {FirstName = "Per", LastName = "Andersson", Age = 33},
+    new {FirstName = "Anna", LastName = "Lundberg", Age = 24},
+    new {FirstName = "Camilla", LastName = "Eriksson", Age = 67}
+};
+
+var people2 = People
+.Where(p => p.Age >= 40)
+.Select ((person, i) => new 
+{
+    Number = i,
+    Name = $"{person.FirstName} {person.LastName}",
+    Email = $"{person.FirstName.ToLower()}.{person.LastName.ToLower()}@gmail.com"
+})
+.Where(p => p.Number >= 1)
+.ToList();
+
+people2.ForEach(p => System.Console.WriteLine($"The Email for {p.Name} is {p.Email}"));
+
+System.Console.WriteLine("\n********Query Syntax*******\n");
+
+var query = from p in People where p.Age >= 40 select p.FirstName;
+// var methodSyntax = People.Where(p => p.Age >= 40).Select(p => p.FirstName);
+
+foreach (var age in query)
+{
+    System.Console.WriteLine(age);
+}
+
+// System.Console.WriteLine("\nAdd person to age\n");
+// foreach (var age in query)
+// {
+//     System.Console.WriteLine();
 // }
