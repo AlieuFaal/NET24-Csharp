@@ -23,6 +23,14 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Sep 23][Sep23] | Arv & Polymorfism.                                    |
 | [Sep 25][Sep25] | Clean Code.                                           |
 | [Sep 26][Sep26] | Generiska klasser och metoder. Genric collections.    |
+| [Sep 30][Sep30] | Delegates & Event.                                    |
+| [Okt 2][Okt2] | Lambda, Anonymous types, Extension method, Interface.   |
+| [Okt 3][Okt3] | Language Integrated Queries (LINQ).                     |
+| [Okt 7][Okt7] | Multithreading, Threadpool, Task & Task\<TResult\>, PLINQ.|
+| [Okt 9][Okt9] | Async & Await. Thread safety                            |
+| [Okt 10][Okt10] | Design principer: SOLID                               |
+| [Okt 14][Okt14] | Intro WPF & XAML                                      |
+| [Okt 15][Okt15] | WPF Standardkontroller, Dialog boxes                  |
 
 [Aug26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug26.md
 [Aug28]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Aug28.md
@@ -39,3 +47,11 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Sep23]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep23.md
 [Sep25]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep25.md
 [Sep26]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep26.md
+[Sep30]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep30.md
+[Okt2]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt2.md
+[Okt3]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt3.md
+[Okt7]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt7.md
+[Okt9]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt9.md
+[Okt10]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt10.md
+[Okt14]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt14.md
+[Okt15]: https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Okt15.md

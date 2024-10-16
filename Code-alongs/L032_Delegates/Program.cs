@@ -1,4 +1,4 @@
-
+﻿
 // DemoDelegate myDelegate = new DemoDelegate(CharCounter);
 using System.Globalization;
 

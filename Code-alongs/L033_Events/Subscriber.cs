@@ -1,4 +1,4 @@
-
+﻿
 class Subscriber
 {
     private string name;

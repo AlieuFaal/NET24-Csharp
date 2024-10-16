@@ -1,17 +1,16 @@
-﻿void GetNumbers()
-{
-    var numbers = new List<int>();
-}
+﻿
 
-foreach (var number in GetNumbers())
+using System.Collections;
+
+foreach(var number in GetNumbers())
 {
-    System.Console.WriteLine(number);
+    Console.WriteLine(number);
 }
 
 IEnumerable GetNumbers()
 {
-    for (int i = 0;i < 10; i++)
-    {
-        yield return i;
-    }
+	for (int i = 0; i < 10; i++)
+	{
+		yield return i;
+	}
 }

@@ -1,4 +1,4 @@
-class MessageEventArgs : EventArgs
+﻿class MessageEventArgs : EventArgs
 {
     public MessageEventArgs(string message)
     {
@@ -10,20 +10,12 @@ class MessageEventArgs : EventArgs
 
 class Publisher
 {
-    public delegate void MessageEvent(object sender, EventArgs args);
+    //public delegate void MessageEvent(object sender, MessageEventArgs args);
 
-    public event MessageEvent Message;
-
-    public void SendMessage()
-    {
-        Message.Invoke(this, EventArgs.Empty);
-    }
-
-    // public event EventHandler<MessageEventArgs> Message;
+    public event EventHandler<MessageEventArgs> Message;
 
     public void SendMessage(string message)
     {
-        Message.Invoke(this, new MessageEventArgs(message));  
+        Message.Invoke(this, new MessageEventArgs(message));
     }
-
 }
